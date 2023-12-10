@@ -66,7 +66,7 @@ void loop () {
     }
 
 
-    // soll jede Stunde Bing machen, kommt druaf an, wieviel Uhr es ist
+    // soll jede Stunde Bing machen, kommt drauf an, wie viel Uhr es ist
 }
 
 void rtcTimeDate() {
@@ -91,4 +91,8 @@ void servoBing() {
     mechanicsServo.write(0);
     mechanicsServo.write(50);
     mechanicsServo.write(0);
+}
+
+void recognizeHour() {
+
 }
